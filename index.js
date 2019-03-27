@@ -1,3 +1,5 @@
+
+//making first change
 class Calc {
   constructor(num) {
     this.num = num
