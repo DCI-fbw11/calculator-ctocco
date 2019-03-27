@@ -46,6 +46,10 @@ class Calc {
     return this;
   }
 
+  fraction(num) {
+    return this.divide(num);
+  }
+
   result() {
     let output = this.num.toFixed(2);
     console.log(output);
@@ -75,6 +79,7 @@ class Calc {
 new Calc(1)
   .add(3)
   .plus(2)
+  .fraction(4)
   .subtract(3)
   .multiply(2)
   .divide(3)
